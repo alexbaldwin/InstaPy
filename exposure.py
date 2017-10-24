@@ -31,15 +31,16 @@ def job():
                 [
                     'vsco',
                     'adobespark',
-                    'sonyalpha',
+                    'scottkelby',
                     'unsplash',
-                    'squarespace',
+                    'bhphoto',
                     'natgeotravel',
                     'earthpix',
                     'lonelyplanet',
-                    'bbc_travel',
+                    'thephotosociety',
                     'lightroom',
-                    'canonusa'
+                    'canonusa',
+                    'officialfstoppers'
                 ], amount=20, random=False)
 
         # end the bot session
