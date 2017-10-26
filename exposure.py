@@ -14,7 +14,7 @@ def job():
         session.login()
 
         # set up all the settings
-        session.set_upper_follower_count(limit = 5000)
+        session.set_upper_follower_count(limit = 6000)
         session.set_lower_follower_count(limit = 50)
         session.set_dont_include(['alexbaldwin', 'lukesbeard', 'exposure'])
         session.set_do_follow(enabled=True, percentage=90, times=1)
@@ -25,7 +25,7 @@ def job():
         session.like_by_tags(
                 [
                     'toldwithexposure'
-                ], amount=50)
+                ], amount=70)
 
         session.follow_user_followers(
                 [
@@ -41,7 +41,7 @@ def job():
                     'lightroom',
                     'canonusa',
                     'officialfstoppers'
-                ], amount=20, random=False)
+                ], amount=30, random=False)
 
         # end the bot session
         session.end()
